@@ -1,20 +1,20 @@
 # O(n)
-# def print_items(n):
-#     for i in range(n):
-#         print(i)
-#     for j in range(n):
-#         print(j)
-#
-# print_items(10)
+def print_items(n):
+    for i in range(n):
+        print(i)
+    for j in range(n):
+        print(j)
+
+print_items(10)
 
 # O(n**2)
 # Less efficient from a time complexity standpoint.
-# def print_items(n):
-#     for i in range(n):
-#         for j in range(n):
-#             print(i, j)
-#
-# print_items(10)
+def print_items(n):
+    for i in range(n):
+        for j in range(n):
+            print(i, j)
+
+print_items(10)
 
 # Drop Non-Dominants
 def print_items(n):
@@ -26,3 +26,11 @@ def print_items(n):
         print(k)
 
 print_items(10)
+
+# O(1)
+# Most efficient of all BigO
+def add_items(n):
+    return n + n + n
+
+# O(log n)
+# Second most efficient
