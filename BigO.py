@@ -34,3 +34,12 @@ def add_items(n):
 
 # O(log n)
 # Second most efficient
+
+# O(a + b)
+# When it has two different parameters.
+# Cannot just classify both parameters as n and then drop constant to get O(n).
+def print_items(a, b):
+    for i in range(a):
+        print(i)
+    for j in range(b):
+        print(j)
